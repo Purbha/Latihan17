@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Latihan 17</string>
+    <string name="textView_Main_Judul1">Open APP Satu Activity Satu</string>
+    <string name="textView_Main_Judul2">Open APP Satu Activity Dua</string>
+    <string name="textView_Satu_Judul">App Satu Activity Satu</string>
+    <string name="button_OK">OK</string>
+    <string name="icon_Menu">Icon Menu</string>
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ims_hr.app_satu.SatuActivity">
+
+    <TextView
+        android:id="@+id/textView_Satu_Judul"
+        style="@style/textView_Style2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/textView_Satu_Judul"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_Satu_Hor1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_Satu_Hor2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_Satu_Hor3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline_Satu_Ver1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.5" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon1"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Satu_Hor2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor1"
+        app:srcCompat="@drawable/png1" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon2"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Satu_Hor2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor1"
+        app:srcCompat="@drawable/png2" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon3"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Satu_Hor3"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor2"
+        app:srcCompat="@drawable/png3" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon4"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_Satu_Hor3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor2"
+        app:srcCompat="@drawable/png4" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon5"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor3"
+        app:srcCompat="@drawable/png5" />
+
+    <ImageView
+        android:id="@+id/imageView_Satu_Icon6"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:scaleType="center"
+        android:contentDescription="@string/icon_Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline_Satu_Ver1"
+        app:layout_constraintTop_toTopOf="@+id/guideline_Satu_Hor3"
+        app:srcCompat="@drawable/png6" />
+
+</android.support.constraint.ConstraintLayout>
