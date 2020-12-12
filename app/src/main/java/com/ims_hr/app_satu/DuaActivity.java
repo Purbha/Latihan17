@@ -4,12 +4,11 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class DuaActivity extends AppCompatActivity {
 
-    ImageButton IB_Icon1;
-    ImageButton IB_Icon2;
+    ImageButton IB_Icon1, IB_Icon2;
+    class_Pesan class_pesan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,16 +20,16 @@ public class DuaActivity extends AppCompatActivity {
     }
 
     private void Inisial() {
-        IB_Icon1 = (ImageButton) findViewById(R.id.imageButton_Dua_Icon1);
-        IB_Icon2 = (ImageButton) findViewById(R.id.imageButton_Dua_Icon2);
+        IB_Icon1 = findViewById(R.id.imageButton_Dua_Icon1);
+        IB_Icon2 = findViewById(R.id.imageButton_Dua_Icon2);
+        class_pesan = new class_Pesan(DuaActivity.this);
     }
 
     private void Listen_IB_Icon1(){
         IB_Icon1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(DuaActivity.this, "Anda klik Icon 1",
-                        Toast.LENGTH_SHORT).show();
+                class_pesan.Pesan(" 1");
             }
         });
     }
@@ -39,8 +38,7 @@ public class DuaActivity extends AppCompatActivity {
         IB_Icon2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(DuaActivity.this, "Anda klik Icon 2",
-                        Toast.LENGTH_SHORT).show();
+                class_pesan.Pesan(" 2");
             }
         });
     }
