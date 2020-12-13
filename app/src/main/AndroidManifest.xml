@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ims_hr.app_satu">
+    package="com.ims_hr.latihan17">
 
     <application
         android:allowBackup="true"
@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.ims_hr.latihan17.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SatuActivity">
+        <activity android:name="com.ims_hr.latihan17.SatuActivity">
             <intent-filter>
                 <action android:name="com.ims_hr.app_satu.SatuActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".DuaActivity">        </activity>
+        <activity android:name="com.ims_hr.latihan17.DuaActivity">        </activity>
     </application>
 
 </manifest>

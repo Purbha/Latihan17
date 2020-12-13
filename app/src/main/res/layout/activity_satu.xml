@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.ims_hr.app_satu.SatuActivity">
+    tools:context="com.ims_hr.latihan17.SatuActivity">
 
     <TextView
         android:id="@+id/textView_Satu_Judul"

@@ -1,4 +1,4 @@
-package com.ims_hr.app_satu;
+package com.ims_hr.latihan17;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
