@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name="com.ims_hr.latihan17.DuaActivity">        </activity>
+        <activity android:name="com.ims_hr.latihan17.DuaActivity">
+        </activity>
     </application>
 
 </manifest>

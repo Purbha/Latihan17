@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -28,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
         B_OK1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent In = new Intent(MainActivity.this,SatuActivity.class);
-                startActivity(In);
+                //Intent In = new Intent(MainActivity.this,SatuActivity.class);
+                //startActivity(In);
+                String Nama = getApplicationContext().getPackageName();
+                Toast.makeText(MainActivity.this, Nama, Toast.LENGTH_SHORT).show();
             }
         });
     }
