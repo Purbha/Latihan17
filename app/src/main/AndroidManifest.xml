@@ -17,7 +17,7 @@
         </activity>
         <activity android:name="com.ims_hr.latihan17.SatuActivity">
             <intent-filter>
-                <action android:name="com.ims_hr.app_satu.SatuActivity" />
+                <action android:name="com.ims_hr.latihan17.SatuActivity" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
