@@ -5,6 +5,9 @@
     <string name="textView_Satu_Judul">Latihan 17 Activity Satu</string>
     <string name="textView_Dua_Judul">Latihan 17 Activity Dua</string>
     <string name="button_OK">OK</string>
-    <string name="icon_Menu">Icon Menu</string>
+    <string name="button_Main_OK1">OK 1</string>
+    <string name="button_Main_OK2">OK 2</string>
+    <string name="icon_Menu1">Icon Menu 1</string>
+    <string name="icon_Menu2">Icon Menu 2</string>
     <string name="pesan_Menu">Anda klik icon</string>
 </resources>

@@ -1,9 +1,9 @@
 package com.ims_hr.latihan17;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class SatuActivity extends AppCompatActivity {
 
@@ -34,57 +34,27 @@ public class SatuActivity extends AppCompatActivity {
     }
 
     private void Listen_IV_Icon1() {
-        IV_Icon1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 1");
-            }
-        });
+        IV_Icon1.setOnClickListener(v -> class_pesan.Pesan(" 1"));
     }
 
     private void Listen_IV_Icon2() {
-        IV_Icon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 2");
-            }
-        });
+        IV_Icon2.setOnClickListener(v -> class_pesan.Pesan(" 2"));
     }
 
     private void Listen_IV_Icon3() {
-        IV_Icon3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 3");
-            }
-        });
+        IV_Icon3.setOnClickListener(v -> class_pesan.Pesan(" 3"));
     }
 
     private void Listen_IV_Icon4() {
-        IV_Icon4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 4");
-            }
-        });
+        IV_Icon4.setOnClickListener(v -> class_pesan.Pesan(" 4"));
     }
 
     private void Listen_IV_Icon5() {
-        IV_Icon5.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 5");
-            }
-        });
+        IV_Icon5.setOnClickListener(v -> class_pesan.Pesan(" 5"));
     }
 
     private void Listen_IV_Icon6() {
-        IV_Icon6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 6");
-            }
-        });
+        IV_Icon6.setOnClickListener(v -> class_pesan.Pesan(" 6"));
     }
 
 }

@@ -2,9 +2,9 @@ package com.ims_hr.latihan17;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -25,22 +25,16 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void Listen_B_OK1(){
-        B_OK1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent In = new Intent(MainActivity.this,SatuActivity.class);
-                startActivity(In);
-            }
+        B_OK1.setOnClickListener(v -> {
+            Intent In = new Intent(MainActivity.this,SatuActivity.class);
+            startActivity(In);
         });
     }
 
     private void Listen_B_OK2() {
-        B_OK2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent In = new Intent(MainActivity.this,DuaActivity.class);
-                startActivity(In);
-            }
+        B_OK2.setOnClickListener(v -> {
+            Intent In = new Intent(MainActivity.this,DuaActivity.class);
+            startActivity(In);
         });
     }
 

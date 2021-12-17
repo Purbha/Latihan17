@@ -1,9 +1,9 @@
 package com.ims_hr.latihan17;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-import android.view.View;
 import android.widget.ImageButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class DuaActivity extends AppCompatActivity {
 
@@ -26,21 +26,11 @@ public class DuaActivity extends AppCompatActivity {
     }
 
     private void Listen_IB_Icon1(){
-        IB_Icon1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 1");
-            }
-        });
+        IB_Icon1.setOnClickListener(v -> class_pesan.Pesan(" 1"));
     }
 
     private void Listen_IB_Icon2(){
-        IB_Icon2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                class_pesan.Pesan(" 2");
-            }
-        });
+        IB_Icon2.setOnClickListener(v -> class_pesan.Pesan(" 2"));
     }
 
 }
