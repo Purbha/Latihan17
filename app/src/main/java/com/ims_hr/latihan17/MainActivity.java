@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
 
     Button B_OK1, B_OK2;
+    MunculPesan munculPesan;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +23,14 @@ public class MainActivity extends AppCompatActivity {
     private void Inisial(){
         B_OK1 = findViewById(R.id.button_Main_OK1);
         B_OK2 = findViewById(R.id.button_Main_OK2);
+        munculPesan = new MunculPesan(MainActivity.this);
     }
 
     private void Listen_B_OK1(){
         B_OK1.setOnClickListener(v -> {
             Intent In = new Intent(MainActivity.this,SatuActivity.class);
             startActivity(In);
+            munculPesan.PanggilToast("Ini adalah toast.");
         });
     }
 
@@ -35,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         B_OK2.setOnClickListener(v -> {
             Intent In = new Intent(MainActivity.this,DuaActivity.class);
             startActivity(In);
+            munculPesan.PanggilToast("Ini adalah toast.");
         });
     }
 
